@@ -1,0 +1,62 @@
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign Up</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Font Library -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" type="text">
+</head>
+
+
+<body>
+
+    <div class="card-content">
+
+        <div class="form-field">
+            <label for="Email">Email Address</label>
+            <input type="text" id="email">
+        </div><br>
+
+        <div class="form-field">
+            <label for="password">Password</label>
+            <input type="password" id="password">
+        </div><br>
+
+        <div class="form-field">
+            <label for="zipCode">Zip Code</label>
+            <input type="text" id="zipCode">
+        </div><br>
+
+        <div class="form-field">
+            <button class="btn-large waves-effect waves-dark orange" id="signupBtn" style="width:100%">Create
+                Account</button>
+        </div><br>
+
+    </div>
+
+
+    <div class="row">
+        <p class="center" style="margin-bottom:-15px;"> &copy; Copyright 2019</p>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.0.slim.js"
+        integrity="sha256-milezx5lakrZu0OP9b2QWFy1ft/UEUK6NH1Jqz8hUhQ=" crossorigin="anonymous"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.11.0/firebase.js"></script>
+    <script src="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.js"></script>
+    <script src='app.js'></script>
+
+    <script>
+        $(document).ready(function () {
+            $('.modal').modal();
+        });
+    </script>
+</body>
